@@ -1,0 +1,17 @@
+{
+    "name": "lockon/blog",
+    "description": "exam",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Lockon\\Blog\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Laszlo Gyurkovics",
+            "email": "gyurkovics95@gmail.com"
+        }
+    ],
+    "require": {}
+}

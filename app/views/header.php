@@ -35,7 +35,7 @@
                                 <a class="nav-link" href="/app/views/article.php" title="#">article</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#" title="#">MENÜPONT 2</a>
+                                <a class="nav-link" href="/app/views/bloglist.php" title="#">bloglist 2</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#" title="#">MENÜPONT 3</a>
