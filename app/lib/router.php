@@ -1,6 +1,6 @@
-<?php namespace app\lib;
+<?php namespace App\Lib;
 
-class router
+class Router
 {
     public static function get($route, $callback)
     {
