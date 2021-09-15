@@ -9,6 +9,7 @@ use App\Lib\Response;
 use App\controllers\Home;
 use App\models\Posts;
 
+
 Posts::load();
 
 Router::get('/', function () {
@@ -17,6 +18,12 @@ Router::get('/', function () {
 
 Router::get('/post', function (Request $req, Response $res) {
     $res->toJSON(Posts::all());
+});
+
+Router::get('/post2', function (Request $req, Response $res) {  
+    $p = new Posts();
+    $sel = $p->select() or die('error from here');
+    $res->toJSON($sel);
 });
 
 Router::post('/post', function (Request $req, Response $res) {
